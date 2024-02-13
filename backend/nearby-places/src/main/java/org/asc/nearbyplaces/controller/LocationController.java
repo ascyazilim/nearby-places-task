@@ -12,10 +12,11 @@ import java.util.Optional;
 import static org.asc.nearbyplaces.constants.ApiUrl.BASE_URL;
 import static org.asc.nearbyplaces.constants.ApiUrl.SEARCH;
 
+
 @RestController
 @RequestMapping(BASE_URL)
 @RequiredArgsConstructor
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:3000")
 public class LocationController {
     private final ILocationService locationService;
     private final IGooglePlacesComponent googlePlacesComponent;
