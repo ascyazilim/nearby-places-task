@@ -41,9 +41,7 @@ After starting both the backend and frontend services, open your web browser and
 
 ## Contributing
 
-We welcome contributions to this project! Please refer to the `CONTRIBUTING.md` file for more details on how to contribute, including coding standards and pull request guidelines.
+We welcome contributions to this project!
 
-## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the available versions, see the [tags on this repository](https://github.com/ascyazilim/nearby-places-task/tags).
 
