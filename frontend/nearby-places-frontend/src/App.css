@@ -1,16 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin-top: 50px;
 }
 
 .App-header {
@@ -24,15 +14,42 @@
   color: white;
 }
 
-.App-link {
+input[type="text"] {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #282c34;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #36a9e1;
+}
+
+.place-list {
+  margin-top: 20px;
+  text-align: left;
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.place-item {
+  background-color: #20232a;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.place-item p {
+  margin: 5px 0;
 }
